@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.dell.acelearning.home_fac"
+    tools:showIn="@layout/app_bar_home_fac"
+    android:background="@drawable/forgot"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="25dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="140dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/bars" />
+
+    <TextView
+        android:layout_width="265dp"
+    android:layout_height="42dp"
+    android:layout_marginTop="9dp"
+    android:layout_centerHorizontal="true"
+    android:gravity="center_horizontal"
+    android:text="Ace Learning"
+    android:textSize="30dp"
+    android:textColor="@android:color/white" />
+
+
+    <Button
+        android:id="@+id/upd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/hbtn1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <Button
+        android:id="@+id/tests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/hbtn2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+
+
+    <Button
+        android:id="@+id/stud_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hbtn3"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="5dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <Button
+        android:id="@+id/doubts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hbtn4"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="350dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.dell.acelearning">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".uploadques"
+            android:label="@string/title_activity_uploadques"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".livelecture"
+            android:label="@string/title_activity_livelecture"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".logout"
+            android:label="@string/title_activity_logout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".changepassword"
+            android:label="@string/title_activity_changepassword"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".home_fac"
+            android:label="@string/title_activity_home_fac"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".checksubject" />
+        <activity android:name=".CheckUsertype" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login" />
+        <activity android:name=".signup" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".updquesobj" />
+        <activity android:name=".updquessub" />
+        <activity android:name=".generate_test" />
+        <activity android:name=".solve_doubt" />
+        <activity android:name=".upload_material" />
+        <activity android:name=".stud_score" />
+        <activity android:name=".startlivelec11" />
+        <activity android:name=".stud_livelecture" />
+        <activity android:name=".admin_home" />
+        <activity android:name=".signup_fac"></activity>
+    </application>
+
+</manifest>

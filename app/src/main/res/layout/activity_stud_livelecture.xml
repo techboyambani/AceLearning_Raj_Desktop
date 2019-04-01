@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".stud_livelecture">
+    <WebView
+        android:id="@+id/webView"
+
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        />
+
+
+    <ScrollView
+        android:id="@+id/my_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_above="@+id/myLinearLayout"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:id="@+id/group_chat_text_display"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginBottom="50dp"
+                android:textColor="#111"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/myLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        >
+        <EditText
+            android:id="@+id/input_group_message"
+            android:layout_width="300dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="10dp"
+            android:hint="Write message here"
+            android:textColorHint="#111"
+            android:padding="17dp"/>
+        <ImageButton android:layout_width="55dp"
+            android:id="@+id/send_message_button"
+            android:layout_height="55dp"
+            android:src="@drawable/ic_menu_send"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

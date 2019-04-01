@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Ace Learning</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="slide_1_title">Learn</string>
+    <string name="slide_1_desc">Set your daily workout routine by the help of trainer</string>
+    <string name="slide_2_title">Practice </string>
+    <string name="slide_2_desc">Learn about the different meditation techniques and practice them</string>
+    <string name="slide_3_title">Analyze </string>
+    <string name="slide_3_desc">Make your diet chart by the help of health experts</string>
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_forgot_password">Forgot Password</string>
+    <string name="btn_link_to_register">Register</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="minimum_password">6</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="subject">subject</string>
+    <string name="title_activity_home_fac">home_fac</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_changepassword">changepassword</string>
+    <string name="title_activity_logout">logout</string>
+    <string name="title_activity_livelecture">livelecture</string>
+    <string name="title_activity_uploadques">uploadques</string>
+</resources>

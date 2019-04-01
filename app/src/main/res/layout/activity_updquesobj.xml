@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.acelearning.updquesobj"
+    android:orientation="vertical"
+    android:background="@drawable/forgot">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="215dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/typ" />
+    <Spinner
+        android:id="@+id/sp_typeQ"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        android:background="@color/whit"
+        tools:layout_editor_absoluteY="175dp"
+        android:spinnerMode="dropdown"/>
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/ques"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/blank"
+        android:hint="Enter question"
+        android:inputType="text"
+        android:maxLines="5"
+        android:paddingLeft="20dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textCursorDrawable="@drawable/color_cursor"/>
+    <EditText
+        android:id="@+id/op1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="option 1"
+        android:inputType="text"
+        android:background="@drawable/blank"
+        android:paddingLeft="20dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@android:color/black"
+        android:textCursorDrawable="@drawable/color_cursor"/>
+    <EditText
+        android:id="@+id/op2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="option 2"
+        android:background="@drawable/blank"
+        android:paddingLeft="20dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:layout_marginTop="5dp"
+        android:inputType="text"
+        android:textCursorDrawable="@drawable/color_cursor"/>
+    <EditText
+        android:id="@+id/op3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="option 3"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:inputType="text"
+        android:background="@drawable/blank"
+        android:paddingLeft="20dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@android:color/black"/>
+    <EditText
+        android:id="@+id/op4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="option 4"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:inputType="text"
+        android:background="@drawable/blank"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ans" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:id="@+id/answer"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/option1"
+            android:layout_width="match_parent"
+            android:text="option 1"
+            android:onClick="selectanswer"
+            android:textColor="@android:color/white"
+            android:buttonTint="@android:color/white"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/option2"
+            android:layout_width="match_parent"
+            android:text="option 2"
+            android:textColor="@android:color/white"
+            android:buttonTint="@android:color/white"
+            android:onClick="selectanswer"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/option3"
+            android:layout_width="match_parent"
+            android:text="option 3"
+            android:textColor="@android:color/white"
+            android:buttonTint="@android:color/white"
+            android:onClick="selectanswer"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/option4"
+            android:layout_width="match_parent"
+            android:text="option 4"
+            android:textColor="@android:color/white"
+            android:buttonTint="@android:color/white"
+            android:onClick="selectanswer"
+            android:layout_height="wrap_content" />
+
+
+    </RadioGroup>
+
+
+
+    <Button
+        android:id="@+id/insert"
+        android:onClick="insertques"
+        android:layout_width="311dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/insert" />
+    <Button
+        android:id="@+id/back"
+        android:onClick="backtohome"
+        android:layout_width="311dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/back" />
+
+
+</LinearLayout>

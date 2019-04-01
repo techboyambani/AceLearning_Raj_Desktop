@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "142192083952",
+    "firebase_url": "https://ace-learning-fc53f.firebaseio.com",
+    "project_id": "ace-learning-fc53f",
+    "storage_bucket": "ace-learning-fc53f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142192083952:android:f993eb595ee0f196",
+        "android_client_info": {
+          "package_name": "com.example.dell.acelearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142192083952-ur95ph7dao9rj31548jcgvqvh8op9cld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjg8jtPsHbK4GQX3NK7C48iuKzMZpt7uM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

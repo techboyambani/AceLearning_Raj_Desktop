@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.dell.acelearning.livelecture"
+        android:background="@drawable/forgot">
+
+    <TextView
+        android:layout_width="25dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="140dp"
+        android:background="@drawable/bars" />
+
+    <TextView
+        android:layout_width="265dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="9dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="Live Lecture"
+        android:textSize="30dp"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/ntftitle"
+        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/blank"
+        android:ems="10"
+        android:hint="Enter Notification Title"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"/>
+
+
+
+    <EditText
+        android:id="@+id/ntfimsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:inputType="textMultiLine"
+        android:background="@drawable/blank"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:hint="Enter Notification Message"
+        tools:layout_editor_absoluteX="38dp"
+        android:paddingTop="5dp"
+        tools:layout_editor_absoluteY="62dp"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/sendnotification"
+        android:layout_width="270dp"
+        android:layout_height="34dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/notify"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="178dp" />
+    <Button
+        android:id="@+id/start_livelec"
+        android:layout_width="270dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:background="@drawable/live" />
+    </RelativeLayout>

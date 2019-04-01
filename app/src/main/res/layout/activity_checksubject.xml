@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.acelearning.checksubject">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select subject"
+        android:textColor="#111"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="choose"
+        android:onClick="choosefile"
+        android:id="@+id/choose"
+       />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/upload"
+        android:text="upload"
+        android:onClick="upd"/>
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:onClick="regcomp"/>
+
+
+</LinearLayout>
